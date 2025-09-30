@@ -676,8 +676,6 @@ a {
 .team-lists {
   display: flex;
   flex-direction: column;
-  /* padding-left: 28px;
-  padding-right: 28px; */
   gap: 72px;
 }
 
@@ -785,7 +783,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 72px 24px;
   }
 
   .team-names {
