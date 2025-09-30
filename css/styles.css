@@ -956,6 +956,8 @@ a {
 
 @media screen and (min-width: 1158px) {
   .team-section {
+    max-width: 1440px;
+    height: 780px;
     display: flex;
     background-color: #f4f4fd;
     padding: 120px 0;
