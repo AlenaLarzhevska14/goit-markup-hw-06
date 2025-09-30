@@ -360,7 +360,7 @@ a {
 .hero {
   background-color: #2e2f42;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.4),
+      rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/mob-bg.jpg);
@@ -368,14 +368,26 @@ a {
   background-position: center;
   background-size: cover;
   max-width: 320px;
-  height: 432px;
+
   margin: 0 auto;
   padding-top: 72px;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (min-resolution: 2x), (-webkit-min-device-pixel-radio: 2) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg2xmob.jpg);
+  }
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 36px;
@@ -403,7 +415,6 @@ a {
   display: block;
   margin: 0 auto;
   margin-top: 72px;
-  margin-bottom: 72px;
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
@@ -427,7 +438,7 @@ a {
   .hero {
     background-color: #2e2f42;
     background-image: linear-gradient(
-        rgba(46, 47, 66, 0.4),
+        rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/tab-bg.jpg);
@@ -435,9 +446,8 @@ a {
     background-position: center;
     background-size: cover;
     max-width: 768px;
-    height: 436px;
     margin: 0 auto;
-
+    padding: 112px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -452,12 +462,17 @@ a {
     color: #fff;
     max-width: 496px;
     height: 120px;
-    margin-top: 112px;
     margin-bottom: 36px;
   }
 
-  .button {
-    margin-bottom: 112px;
+  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-radio: 2) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg2xtab.jpg);
+    }
   }
 }
 /* ----------HERO-destop----------- */
@@ -473,10 +488,9 @@ a {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
-    height: 600px;
     margin: 0 auto;
     padding-top: 188px;
-    padding-bottom: 48px;
+    padding-bottom: 188px;
   }
   .hero-title {
     font-weight: 700;
@@ -486,11 +500,22 @@ a {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    margin: 48px auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    margin-bottom: 48px;
   }
 
   .button {
-    margin-bottom: 188px;
+  }
+}
+
+@media screen and (min-resolution: 2x), (-webkit-min-device-pixel-radio: 2) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office2x.jpg);
   }
 }
 
@@ -514,11 +539,11 @@ a {
 .features-subtitle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .features-description {
@@ -533,19 +558,34 @@ a {
   width: 100%;
 } */
 
-/* ----------HERO-tab----------- */
+/* ---------FEATURES--tab----------- */
 @media screen and (min-width: 768px) {
   .features {
     padding-top: 96px;
     padding-bottom: 96px;
   }
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
 
   .features-item {
-    width: calc((100%-24px) / 2);
+    width: calc((100% - 24px) / 2);
+  }
+
+  .features-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2e2f42;
+    margin-bottom: 8px;
   }
 }
 
-/* ----------HERO-destop----------- */
+/* ----------FEATURES-destop----------- */
 @media screen and (min-width: 1158px) {
   .features {
     padding-top: 120px;
@@ -588,6 +628,7 @@ a {
   .features-list {
     display: flex;
     gap: 24px;
+    flex-wrap: nowrap;
   }
 
   .visually-hidden {
@@ -601,5 +642,13 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+  }
+
+  .features-item {
+    width: calc(100% - 72px) / 4;
+  }
+
+  .features-subtitle {
+    text-align: left;
   }
 }
