@@ -762,6 +762,10 @@ a {
     padding: 96px 0;
   }
 
+  .team-section .container {
+    max-width: 548px;
+  }
+
   .team-title {
     text-transform: capitalize;
     margin-bottom: 72px;
@@ -854,6 +858,10 @@ a {
 /* ---------Our Team--destop----------- */
 
 @media screen and (min-width: 1158px) {
+  .team-section .container {
+    max-width: 1158px;
+  }
+
   .team-section {
     max-width: 1440px;
     height: 780px;
