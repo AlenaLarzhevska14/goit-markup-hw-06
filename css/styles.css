@@ -1139,7 +1139,6 @@ a {
   }
 
   .overlay-text {
-    display: none;
     padding: 40px 32px;
     position: absolute;
     top: 0;
