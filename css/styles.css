@@ -774,9 +774,9 @@ a {
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 24px) / 2);
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
+    background: #fff; */
   }
 
   .team-lists {
@@ -879,9 +879,9 @@ a {
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4);
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
+    background: #fff; */
   }
 
   .team-lists {
@@ -969,7 +969,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 120px;
 }
 
 .team-name {
@@ -1003,7 +1002,7 @@ a {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
 }
 
 .portfolio-container {
@@ -1157,9 +1156,14 @@ a {
   .team-items-portfolio:hover .overlay-text {
     transform: translateY(0%);
   }
+
+  .team-items-portfolio:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  }
 }
 
-@media screen and (max-width: 1157px) {
+@media screen and (max-width: 1158px) {
   .overlay-text {
     display: none;
   }
