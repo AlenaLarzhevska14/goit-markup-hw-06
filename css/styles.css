@@ -958,10 +958,6 @@ a {
 
 /* ----------PORTFOLIO--mob---------- */
 .team-section-portfolio {
-  background-color: #ffffff;
-  padding-top: 96px;
-  padding-bottom: 96px;
-  width: 288px;
   height: 400px;
   display: flex;
 }
@@ -972,6 +968,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 96px;
 }
 
 .team-name {
@@ -1013,10 +1010,6 @@ a {
   margin: 0;
 }
 
-.overlay-text {
-  display: none;
-}
-
 .team-items-portfolio {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -1025,9 +1018,6 @@ a {
 /* ----------PORTFOLIO--tab--------- */
 @media screen and (min-width: 768px) {
   .team-section-portfolio {
-    background-color: #ffffff;
-    padding-top: 96px;
-    padding-bottom: 96px;
     width: 768px;
   }
   .team-title {
@@ -1082,10 +1072,6 @@ a {
     position: relative;
     overflow: hidden;
     margin: 0;
-  }
-
-  .overlay-text {
-    display: none;
   }
 
   .team-section-portfolio.container {
@@ -1183,9 +1169,16 @@ a {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   }
-  .img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+}
+
+@media screen and (max-width: 1158px) {
+  .overlay-text {
+    display: none;
   }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
