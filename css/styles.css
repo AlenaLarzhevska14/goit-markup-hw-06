@@ -1018,7 +1018,6 @@ a {
 /* ----------PORTFOLIO--tab--------- */
 @media screen and (min-width: 768px) {
   .team-section-portfolio {
-    width: 768px;
   }
   .team-title {
     text-transform: capitalize;
@@ -1082,11 +1081,9 @@ a {
 /* ----------PORTFOLIO--desk--------- */
 @media screen and (min-width: 1158px) {
   .team-section-portfolio.container {
-    max-width: 1158px;
   }
   .team-section-portfolio {
     background-color: #ffffff;
-    padding-top: 120px;
   }
   .team-title {
     text-transform: capitalize;
