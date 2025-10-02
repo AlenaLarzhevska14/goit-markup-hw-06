@@ -1055,7 +1055,7 @@ a {
     color: #434455;
     text-align: left;
   }
-  .portfolio-list {
+  .team-items-portfolio {
     width: calc((100% - 72px) / 6);
     gap: 72px 24px;
   }
