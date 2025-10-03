@@ -1197,7 +1197,6 @@ img {
   /* margin: 0 auto; */
 }
 
-
 .footer-label {
   display: flex;
   padding-left: 16px;
@@ -1224,7 +1223,6 @@ img {
 .footer-social {
   /* padding-left: 56px;
   padding-right: 56px; */
-
 }
 .footer-socials {
   width: 40px;
@@ -1239,9 +1237,8 @@ img {
 }
 
 .footer-excerpt {
-   display: flex;
-  /* align-items: center;
-  justify-content: center; */ */
+  display: flex;
+
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -1361,7 +1358,6 @@ img {
 }
 
 .subscribe {
-
 }
 
 .footer-paragraf {
@@ -1390,7 +1386,6 @@ img {
     background-color: #2e2f42;
     padding: 96px 0;
   }
-
 
   .footer-input {
     width: 264px;
@@ -1556,7 +1551,7 @@ img {
 
 /* ----------FOOTER--desk---------- */
 @media screen and (min-width: 1158px) {
- .footer {
+  .footer {
     display: flex;
     background-color: #2e2f42;
     padding: 100px 0;
@@ -1716,5 +1711,5 @@ img {
   .svg-subscribe {
     fill: #fff;
     margin-left: 16px;
-  }  
-}  
+  }
+}
