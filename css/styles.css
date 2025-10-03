@@ -1381,6 +1381,7 @@ img {
 
 .containers {
   max-width: 768px;
+
   margin-left: auto;
   margin-right: auto;
  padding: 96px;
@@ -1461,9 +1462,7 @@ height: 112px;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ 
 }
 
 .footer-link {
@@ -1485,7 +1484,7 @@ height: 112px;
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-bottom: 16px;
+  /* padding-bottom: 16px; */
 }
 /* 
 .subscribe-text {
@@ -1501,7 +1500,7 @@ height: 112px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 72px;
+  margin-bottom: 104px;
 
   /* display: flex; */
   gap: 16px;
