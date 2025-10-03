@@ -1385,6 +1385,7 @@ img {
   margin-left: auto;
   margin-right: auto;
  padding: 96px;
+ padding-left: 108px;
 
     flex-direction:row;
 }
@@ -1501,7 +1502,7 @@ height: 112px;
   align-items: center;
   justify-content: center;
   margin-bottom: 104px;
-
+width: 208px;
   /* display: flex; */
   gap: 16px;
   /* padding-top: 56px;
@@ -1564,6 +1565,7 @@ height: 112px;
 
 .subscribe {
   height: 136px;
+ 
 }
 
 .footer-paragraf {
