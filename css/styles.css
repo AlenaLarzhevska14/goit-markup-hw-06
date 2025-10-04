@@ -1381,11 +1381,9 @@ img {
     height: 40px;
   }
 
-  .footer-label {
-  }
-
   .logo-studio-link {
-    margin-right: 40px;
+    /* margin-right: 40px; */
+    margin-bottom: unset;
   }
 
   .logo-link {
@@ -1402,6 +1400,7 @@ img {
   }
 
   .footer-social {
+    margin-bottom: unset;
   }
   .footer-socials {
     width: 40px;
