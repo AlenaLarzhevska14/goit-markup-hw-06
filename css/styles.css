@@ -471,14 +471,14 @@ a {
 }
 /* ----------HERO-destop----------- */
 @media screen and (min-width: 1158px) {
-  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-radio: 2) {
+  @media screen and (min-resolution: 2x) {
     .hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office2x.jpg);
-    }
+    }}
     .hero {
       background-color: #2e2f42;
       background-image: linear-gradient(
